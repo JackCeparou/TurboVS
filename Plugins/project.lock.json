@@ -1,0 +1,244 @@
+{
+  "locked": false,
+  "version": 2,
+  "targets": {
+    ".NETFramework,Version=v4.6.2": {
+      "Newtonsoft.Json/9.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "SharpDX/3.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/SharpDX.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.dll": {}
+        }
+      },
+      "SharpDX.Direct2D1/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "3.1.1",
+          "SharpDX.DXGI": "3.1.1"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Direct2D1.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Direct2D1.dll": {}
+        }
+      },
+      "SharpDX.Direct3D11/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "3.1.1",
+          "SharpDX.DXGI": "3.1.1"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Direct3D11.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Direct3D11.dll": {}
+        }
+      },
+      "SharpDX.DirectInput/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "3.1.1"
+        },
+        "compile": {
+          "lib/net45/SharpDX.DirectInput.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.DirectInput.dll": {}
+        }
+      },
+      "SharpDX.DXGI/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "3.1.1"
+        },
+        "compile": {
+          "lib/net45/SharpDX.DXGI.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.DXGI.dll": {}
+        }
+      },
+      "SharpDX.Mathematics/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "3.1.1"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Mathematics.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Mathematics.dll": {}
+        }
+      },
+      "interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.2",
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1",
+          "SharpDX": "3.1.1",
+          "SharpDX.DXGI": "3.1.1",
+          "SharpDX.Direct2D1": "3.1.1",
+          "SharpDX.Direct3D11": "3.1.1",
+          "SharpDX.DirectInput": "3.1.1",
+          "SharpDX.Mathematics": "3.1.1"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Drawing",
+          "System.Runtime",
+          "System.Windows.Forms",
+          "System.Xml",
+          "System.Xml.Serialization"
+        ],
+        "compile": {
+          "net462/interfaces.dll": {}
+        },
+        "runtime": {
+          "net462/interfaces.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Newtonsoft.Json/9.0.1": {
+      "sha512": "U82mHQSKaIk+lpSVCbWYKNavmNH1i5xrExDEquU1i6I5pV6UMOqRnJRSlKO3cMPfcpp0RgDY+8jUXHdQ4IfXvw==",
+      "type": "package",
+      "path": "Newtonsoft.Json/9.0.1",
+      "files": [
+        "Newtonsoft.Json.9.0.1.nupkg.sha512",
+        "Newtonsoft.Json.nuspec",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "tools/install.ps1"
+      ]
+    },
+    "SharpDX/3.1.1": {
+      "sha512": "AwZP0te4uhq6KXo+H54S4HX8HVZGMHYIMnqJsgb15H+IykzeDt1OQ7YBh1OAbPk/66Q0nNID2WLbLjc3hTEloQ==",
+      "type": "package",
+      "path": "SharpDX/3.1.1",
+      "files": [
+        "SharpDX.3.1.1.nupkg.sha512",
+        "SharpDX.nuspec",
+        "lib/net45/SharpDX.dll",
+        "lib/net45/SharpDX.xml",
+        "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.dll",
+        "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.xml"
+      ]
+    },
+    "SharpDX.Direct2D1/3.1.1": {
+      "sha512": "7bEZqvia/75Hp5yNCwtk/4eFzglpr6SsH4hEUlIpZCBJ8F/b8L7sWxmRAkjSCCEtu7gftJuFwjb5Go0Bf9WWKw==",
+      "type": "package",
+      "path": "SharpDX.Direct2D1/3.1.1",
+      "files": [
+        "SharpDX.Direct2D1.3.1.1.nupkg.sha512",
+        "SharpDX.Direct2D1.nuspec",
+        "lib/net45/SharpDX.Direct2D1.dll",
+        "lib/net45/SharpDX.Direct2D1.xml",
+        "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct2D1.dll",
+        "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct2D1.xml"
+      ]
+    },
+    "SharpDX.Direct3D11/3.1.1": {
+      "sha512": "/nFjt8fX+jIv0lvet/YdSvhMLIpDWDtsJcBwddvaOg+z6PAql+lIYszjUKOJ7lrjUiT1KnCNXZ/QeWdrfEXLnw==",
+      "type": "package",
+      "path": "SharpDX.Direct3D11/3.1.1",
+      "files": [
+        "SharpDX.Direct3D11.3.1.1.nupkg.sha512",
+        "SharpDX.Direct3D11.nuspec",
+        "lib/net45/SharpDX.Direct3D11.dll",
+        "lib/net45/SharpDX.Direct3D11.xml",
+        "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct3D11.dll",
+        "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct3D11.xml"
+      ]
+    },
+    "SharpDX.DirectInput/3.1.1": {
+      "sha512": "MEhgdDN6FLrSLikw8/0hWlGEybisEj3fBeN4x6Sh68ojZYTGnlDgmFtjnvwGZUTQ//uUzghVcH/XbnGbLMPcyw==",
+      "type": "package",
+      "path": "SharpDX.DirectInput/3.1.1",
+      "files": [
+        "SharpDX.DirectInput.3.1.1.nupkg.sha512",
+        "SharpDX.DirectInput.nuspec",
+        "lib/net45/SharpDX.DirectInput.dll",
+        "lib/net45/SharpDX.DirectInput.xml"
+      ]
+    },
+    "SharpDX.DXGI/3.1.1": {
+      "sha512": "EcRs9cjSCi+FLgXLwTLix/AtpZN2psWu8UXACP1jzWtXds1K6tq336QRuWsp4v9LIW0uXkW/oNhIeCsg9RKFVg==",
+      "type": "package",
+      "path": "SharpDX.DXGI/3.1.1",
+      "files": [
+        "SharpDX.DXGI.3.1.1.nupkg.sha512",
+        "SharpDX.DXGI.nuspec",
+        "lib/net45/SharpDX.DXGI.dll",
+        "lib/net45/SharpDX.DXGI.xml",
+        "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.DXGI.dll",
+        "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.DXGI.xml"
+      ]
+    },
+    "SharpDX.Mathematics/3.1.1": {
+      "sha512": "zgVBLBWcpEDopVO40K0wdkPEjZ112KA8xB1QLkqvuZjZe3M6d40aeta9Qca1hqlpn49JFKU22lERhr4oNxbEWg==",
+      "type": "package",
+      "path": "SharpDX.Mathematics/3.1.1",
+      "files": [
+        "SharpDX.Mathematics.3.1.1.nupkg.sha512",
+        "SharpDX.Mathematics.nuspec",
+        "lib/net45/SharpDX.Mathematics.dll",
+        "lib/net45/SharpDX.Mathematics.xml",
+        "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Mathematics.dll",
+        "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Mathematics.xml"
+      ]
+    },
+    "interfaces/1.0.0": {
+      "type": "project",
+      "path": "../interfaces/project.json",
+      "msbuildProject": "../interfaces/interfaces.xproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [
+      "Newtonsoft.Json >= 9.0.1",
+      "SharpDX >= 3.1.1",
+      "SharpDX.DXGI >= 3.1.1",
+      "SharpDX.Direct2D1 >= 3.1.1",
+      "SharpDX.Direct3D11 >= 3.1.1",
+      "SharpDX.DirectInput >= 3.1.1",
+      "SharpDX.Mathematics >= 3.1.1",
+      "interfaces >= 1.0.0-*"
+    ],
+    ".NETFramework,Version=v4.6.2": [
+      "System >= 4.0.0-*",
+      "System.Drawing >= 4.0.0-*",
+      "System.Runtime >= 4.0.20",
+      "System.Windows.Forms >= 4.0.0-*",
+      "System.Xml >= 4.0.0-*",
+      "System.Xml.Serialization >= 4.0.0-*"
+    ]
+  },
+  "tools": {},
+  "projectFileToolGroups": {}
+}

@@ -8,8 +8,8 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>1d170c90-5a9f-417e-ac5a-b2978f606689</ProjectGuid>
     <RootNamespace>Turbo.Plugins</RootNamespace>
-    <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">.\obj</BaseIntermediateOutputPath>
-    <OutputPath Condition="'$(OutputPath)'=='' ">.\bin\</OutputPath>
+    <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">..\..\build\</BaseIntermediateOutputPath>
+    <OutputPath Condition="'$(OutputPath)'=='' ">..\..\build\</OutputPath>
   </PropertyGroup>
   <PropertyGroup>
     <SchemaVersion>2.0</SchemaVersion>
@@ -17,6 +17,8 @@
   <ItemGroup>
     <DnxInvisibleContent Include="JackCeparouCompass\debug.log" />
     <DnxInvisibleContent Include="JackCeparouCompass\LICENSE" />
+    <DnxInvisibleContent Include="Jack\debug.log" />
+    <DnxInvisibleContent Include="Jack\LICENSE" />
     <DnxInvisibleContent Include="project.json" />
   </ItemGroup>
   <ItemGroup>
@@ -25,6 +27,7 @@
     <DnxInvisibleFolder Include=".vscode\" />
     <DnxInvisibleFolder Include=".vs\" />
     <DnxInvisibleFolder Include="JackCeparouCompass\.git\" />
+    <DnxInvisibleFolder Include="Jack\.git\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\DotNet\Microsoft.DotNet.targets" Condition="'$(VSToolsPath)' != ''" />
 </Project>

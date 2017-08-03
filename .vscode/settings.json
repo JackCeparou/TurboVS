@@ -20,6 +20,9 @@
     "**/*.sln": true,
     "**/*.user": true,
     "**/*.xproj": true,
+    "*.*.DotSettings": true,
+    "*.csproj": true,
+    "README.md": true,
 
     "**/.git": true,
     "**/.svn": true,

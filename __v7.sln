@@ -1,10 +1,7 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "__v7", "__v7.xproj", "{F9DA21A3-C430-44AC-BB50-A3968C1E52D9}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logs", "Logs", "{21C2C975-4114-4391-BDDE-52880A22A002}"
 	ProjectSection(SolutionItems) = preProject
 		logs\exceptions.txt = logs\exceptions.txt
@@ -21,33 +18,30 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{47ED17EB-AB1
 		doc\ui_elements.txt = doc\ui_elements.txt
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Lists", "_Lists", "{FEEDAEB1-EE4C-4708-BD26-258F92D19AE5}"
-	ProjectSection(SolutionItems) = preProject
-		..\__v7__work_items\Links.txt = ..\__v7__work_items\Links.txt
-		..\__v7__work_items\Reviews.txt = ..\__v7__work_items\Reviews.txt
-		..\__v7__work_items\Todo.txt = ..\__v7__work_items\Todo.txt
-	EndProjectSection
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Interfaces", "interfaces\Interfaces.xproj", "{9DCF05F7-8FC6-4427-ACF1-4232E6028758}"
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Plugins", "Plugins\Plugins.xproj", "{1D170C90-5A9F-417E-AC5A-B2978F606689}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "__v7", "__v7.csproj", "{A64D6B6C-C701-4A17-97A6-2485ADEE71D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F9DA21A3-C430-44AC-BB50-A3968C1E52D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F9DA21A3-C430-44AC-BB50-A3968C1E52D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F9DA21A3-C430-44AC-BB50-A3968C1E52D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F9DA21A3-C430-44AC-BB50-A3968C1E52D9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9DCF05F7-8FC6-4427-ACF1-4232E6028758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9DCF05F7-8FC6-4427-ACF1-4232E6028758}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9DCF05F7-8FC6-4427-ACF1-4232E6028758}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1D170C90-5A9F-417E-AC5A-B2978F606689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1D170C90-5A9F-417E-AC5A-B2978F606689}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1D170C90-5A9F-417E-AC5A-B2978F606689}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A64D6B6C-C701-4A17-97A6-2485ADEE71D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A64D6B6C-C701-4A17-97A6-2485ADEE71D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A64D6B6C-C701-4A17-97A6-2485ADEE71D3}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A64D6B6C-C701-4A17-97A6-2485ADEE71D3}.Debug|x64.Build.0 = Debug|Any CPU
+		{A64D6B6C-C701-4A17-97A6-2485ADEE71D3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A64D6B6C-C701-4A17-97A6-2485ADEE71D3}.Debug|x86.Build.0 = Debug|Any CPU
+		{A64D6B6C-C701-4A17-97A6-2485ADEE71D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A64D6B6C-C701-4A17-97A6-2485ADEE71D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A64D6B6C-C701-4A17-97A6-2485ADEE71D3}.Release|x64.ActiveCfg = Release|Any CPU
+		{A64D6B6C-C701-4A17-97A6-2485ADEE71D3}.Release|x64.Build.0 = Release|Any CPU
+		{A64D6B6C-C701-4A17-97A6-2485ADEE71D3}.Release|x86.ActiveCfg = Release|Any CPU
+		{A64D6B6C-C701-4A17-97A6-2485ADEE71D3}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <OutputPath>..\build\v7\bin\net462\</OutputPath>
+    <OutputPath>..\build\v7\bin\</OutputPath>
     <BaseIntermediateOutputPath>..\build\v7\obj\</BaseIntermediateOutputPath>
   </PropertyGroup>
 
@@ -24,46 +24,23 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Remove="data\**" />
-    <Compile Remove="doc\**" />
-    <Compile Remove="logs\**" />
-    <Compile Remove="snapshots\**" />
-    <Compile Remove="stat_tracker\**" />
-    <EmbeddedResource Remove="data\**" />
-    <EmbeddedResource Remove="doc\**" />
-    <EmbeddedResource Remove="logs\**" />
-    <EmbeddedResource Remove="snapshots\**" />
-    <EmbeddedResource Remove="stat_tracker\**" />
     <None Remove="data\**" />
     <None Remove="doc\**" />
     <None Remove="logs\**" />
     <None Remove="snapshots\**" />
     <None Remove="stat_tracker\**" />
+    <None Remove="sounds\**" />
+    <None Remove="capture\**" />
+    <None Remove="obj\**" />
+    <None Remove="_config\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="Infinity.Collections.dll" />
-    <None Remove="Infinity.Concurrency.dll" />
-    <None Remove="Infinity.Streams.dll" />
-    <None Remove="Infinity.WinAPI.dll" />
-    <None Remove="README.md" />
-    <None Remove="SharpDX.Direct2D1.dll" />
-    <None Remove="SharpDX.Direct3D11.dll" />
-    <None Remove="SharpDX.DirectInput.dll" />
-    <None Remove="SharpDX.dll" />
-    <None Remove="SharpDX.DXGI.dll" />
-    <None Remove="SharpDX.Mathematics.dll" />
-    <None Remove="Turbo.Basic.dll" />
-    <None Remove="Turbo.Collector.dll" />
-    <None Remove="Turbo.Memory.dll" />
-    <None Remove="Turbo.Plugins.dll" />
-    <None Remove="Turbo.Shared.dll" />
-    <None Remove="Turbo.SNO.dll" />
-    <None Remove="TurboHUD.exe" />
-    <None Remove="TurboHUD.exe.config" />
-    <None Remove="TurboMGR.exe" />
-    <None Remove="TurboMGR.exe.config" />
+    <None Remove="*.dll" />
+    <None Remove="*.exe" />
+    <None Remove="*.exe.config" />
     <None Remove="__v7.sln.DotSettings" />
+    <None Remove="__v7x64.sln.DotSettings" />
   </ItemGroup>
 
   <ItemGroup>

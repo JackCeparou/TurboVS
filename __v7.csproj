@@ -3,9 +3,10 @@
   <PropertyGroup>
     <TargetFramework>net462</TargetFramework>
     <DebugType>portable</DebugType>
-    <AssemblyName>__v7</AssemblyName>
+    <AssemblyName>Turbo</AssemblyName>
     <OutputType>Library</OutputType>
     <PackageId>__v7</PackageId>
+    <RootNamespace>Turbo</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

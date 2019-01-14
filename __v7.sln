@@ -5,17 +5,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logs", "Logs", "{21C2C975-4114-4391-BDDE-52880A22A002}"
 	ProjectSection(SolutionItems) = preProject
 		logs\exceptions.txt = logs\exceptions.txt
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{47ED17EB-AB19-47BB-986B-83BF5DF95E59}"
-	ProjectSection(SolutionItems) = preProject
-		doc\manual.txt = doc\manual.txt
-		doc\sno_actors.txt = doc\sno_actors.txt
-		doc\sno_items.txt = doc\sno_items.txt
-		doc\sno_powers.txt = doc\sno_powers.txt
-		doc\sno_powers_skills.txt = doc\sno_powers_skills.txt
-		doc\sno_quests.txt = doc\sno_quests.txt
-		doc\ui_elements.txt = doc\ui_elements.txt
+		logs\plugins.txt = logs\plugins.txt
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "__v7", "__v7.csproj", "{A64D6B6C-C701-4A17-97A6-2485ADEE71D3}"

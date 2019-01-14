@@ -34,14 +34,16 @@
     <None Remove="capture\**" />
     <None Remove="obj\**" />
     <None Remove="_config\**" />
+    <None Remove="roslyn\**" />
   </ItemGroup>
 
   <ItemGroup>
     <None Remove="*.dll" />
     <None Remove="*.exe" />
-    <None Remove="*.exe.config" />
+    <None Remove="*.config" />
     <None Remove="__v7.sln.DotSettings" />
     <None Remove="__v7x64.sln.DotSettings" />
+    <None Remove="plugins_compiled*" />
   </ItemGroup>
 
   <ItemGroup>

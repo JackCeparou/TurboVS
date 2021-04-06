@@ -1,34 +1,38 @@
-// Place your settings in this file to overwrite default and user settings.
 {
-  "files.exclude": {
-    "stat_tracker": true,
-    "snapshots": true,
-    "**/*.exe": true,
-    "**/*.exe.config": true,
-    "**/*.dll": true,
-    "**/*.zip": true,
-    "**/levelup_paragon*.txt": true,
-    "capture": true,
-    "capture_paragon": true,
-    "logs": false,
-    "data": true,
-    "bin": true,
-    "obj": true,
-    "_version": true,
-    ".mocks": true,
-    ".vs": true,
-    "**/*.sln": true,
-    "**/*.user": true,
-    "**/*.xproj": true,
-    "*.*.DotSettings": true,
-    "*.csproj": true,
-    "README.md": true,
+    "search.exclude": {
+        "doc": true
+    },
+    "files.exclude": {
+        ".idea": true,
+        ".vs": true,
+        ".vscode": true,
+        ".vscode/settings.json": true,
+        "*.dll": true,
+        "*.exe": true,
+        "*.csproj": true,
+        "*.sln": true,
+        "*.DotSettings": true,
 
-    "**/.git": true,
-    "**/.svn": true,
-    "**/.hg": true,
-    "**/.DS_Store": true
-  },
-  "editor.codeLens": false
-  ,"editor.renderControlCharacters": false
+        "doc": true,
+        "obj": true,
+        "stat_tracker": true,
+        "snapshots": true,
+        "roslyn": true,
+        "capture": true,
+        "capture_paragon": true,
+        "logs": false,
+        "data": true,
+        "sounds": true,
+
+        ".editorconfig": true,
+        "README.md": true,
+        "app.config": true,
+        "*.ruleset": true,
+
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true
+    }
 }

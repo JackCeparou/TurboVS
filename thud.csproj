@@ -1,0 +1,107 @@
+﻿<Project>
+
+  <Import Project="Sdk.props" Sdk="Microsoft.NET.Sdk" />
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <DebugType>portable</DebugType>
+    <AssemblyName>Turbo.v9</AssemblyName>
+    <OutputType>Library</OutputType>
+    <PackageId>__v9</PackageId>
+    <RootNamespace>Turbo</RootNamespace>
+    <LangVersion>7</LangVersion>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>$(SolutionDir)..\.build\</OutputPath>
+    <BaseIntermediateOutputPath>$(SolutionDir)..\.build\</BaseIntermediateOutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutputPath>$(SolutionDir)..\.build\</OutputPath>
+    <BaseIntermediateOutputPath>$(SolutionDir)..\.build\</BaseIntermediateOutputPath>
+  </PropertyGroup>
+
+  <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
+
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net472' ">
+    <Reference Include="System" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Serialization" />
+    <Reference Include="System.Runtime" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="doc_fr\**" />
+    <Compile Remove="interfaces\obj\**" />
+    <Compile Remove="Plugins\*mata*\**" />
+    <Compile Remove="Plugins\**\obj\**" />
+    <Compile Remove="Plugins\obj\**" />
+    <Compile Remove="plugins\Resu\**" />
+    <Compile Remove="roslyn\**" />
+    <EmbeddedResource Remove="doc_fr\**" />
+    <EmbeddedResource Remove="interfaces\obj\**" />
+    <EmbeddedResource Remove="Plugins\*mata*\**" />
+    <EmbeddedResource Remove="Plugins\**\obj\**" />
+    <EmbeddedResource Remove="Plugins\obj\**" />
+    <EmbeddedResource Remove="plugins\Resu\**" />
+    <EmbeddedResource Remove="roslyn\**" />
+    <None Remove="interfaces\obj\**" />
+    <None Remove="Plugins\*mata*\**" />
+    <None Remove="Plugins\**\obj\**" />
+    <None Remove="Plugins\obj\**" />
+    <None Remove="plugins\Resu\**" />
+    <None Remove="plugins_compiled_*" />
+    <None Remove="data\**" />
+    <None Remove="doc\**" />
+    <None Remove="doc_fr\**" />
+    <None Remove="logs\**" />
+    <None Remove="roslyn\**" />
+    <None Remove="snapshots\**" />
+    <None Remove="stat_tracker\**" />
+    <None Remove="sounds\**" />
+    <None Remove="capture\**" />
+    <None Remove="_config\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="*.7z" />
+    <None Remove="*.zip" />
+    <None Remove="*.rar" />
+    <None Remove="*.dll" />
+    <None Remove="*.exe" />
+    <None Remove="*.exe.config" />
+    <None Remove="app.config" />
+    <None Remove="plugins\User\blu.cs_" />
+    <None Remove="plugins\User\Class1.cs_" />
+    <None Remove="Plugins\User\JackDoorsConfig.cs_" />
+    <None Remove="*.csproj.DotSettings" />
+    <None Remove="*.sln.DotSettings" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="SharpDX">
+      <HintPath>$(SolutionDir)SharpDX.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.Direct2D1">
+      <HintPath>$(SolutionDir)SharpDX.Direct2D1.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.Direct3D11">
+      <HintPath>$(SolutionDir)SharpDX.Direct3D11.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.DirectInput">
+      <HintPath>$(SolutionDir)SharpDX.DirectInput.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.DXGI">
+      <HintPath>$(SolutionDir)SharpDX.DXGI.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.Mathematics">
+      <HintPath>$(SolutionDir)SharpDX.Mathematics.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
